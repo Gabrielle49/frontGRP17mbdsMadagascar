@@ -80,19 +80,24 @@ export class AssignmentDetailComponent implements OnInit {
   }
 
   onClickEdit() {
-
-    this.assignmentTransmis.note = this.note;
-    this.assignmentTransmis.remarque = this.remarque;
-    this.assignmentTransmis.rendu = true;
-    this.assignmentsService.updateAssignment(this.assignmentTransmis)
-    .subscribe(reponse => {
-      console.log(reponse.message);
-      this.successSnackBar = this.snackBar.open(reponse.message,"", {
+    if(!this.remarque && !this.note){
+        this.assignmentTransmis.note = this.note;
+        this.assignmentTransmis.remarque = this.remarque;
+        this.assignmentTransmis.rendu = true;
+        this.assignmentsService.updateAssignment(this.assignmentTransmis)
+        .subscribe(reponse => {
+          console.log(reponse.message);
+          this.successSnackBar = this.snackBar.open(reponse.message,"", {
+            duration: 2000,
+          });
+          // et on navigue vers la page d'accueil qui affiche la liste
+          this.router.navigate(["/home"]);
+        });
+    }else{
+      this.successSnackBar = this.snackBar.open("Veuillez remplir correctement les champ" ,"", {
         duration: 2000,
       });
-       // et on navigue vers la page d'accueil qui affiche la liste
-       this.router.navigate(["/home"]);
-    });
+    }
   }
   isUser(){
    
