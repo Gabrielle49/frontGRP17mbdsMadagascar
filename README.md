@@ -47,6 +47,8 @@ https://frontmbdsmadagascar.herokuapp.com/home
 email: ratah@gmail.com / mdp: ratah
 #### Professeur : 
 email : marc@gmail.com / mdp : marc
+#### Etudiant:
+email : luise@gmail.com/ mdp :luise
 
 		
 ## Les documentations et tutoriels suivis dans ce projet
