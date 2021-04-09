@@ -1,27 +1,50 @@
-# AssignmentApp
+## Auteur L'application a été conçue par le groupe 17 composé de:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.3.
+ . ANDRIANARIVO Henintsoa Jonatana n°07
 
-## Development server
+ . RANOMENJANAHARY Miora Gabrielle n°46 
+ 
+## Fonctionnalités
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Les fonctionnalités sont: .Login avec Auhentification JWT .
 
-## Code scaffolding
+Gestion des roles : Administrateur, professeur et étudiant .
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Gestion des utilisateurs : L'administrateur seul peut : 
 
-## Build
+-Ajouter un nouvel utilisateur ( ajout d'un nouveau professeur et d'un nouveau étudiant) 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+-Modifier un utilisateur :nom , prenom , role -Lire tous les utilisateurs
 
-## Running unit tests
+ .Gestion des matières: L'administrateur seul peut :
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+ -Ajouter une matière ( associé le professeur responsable de la matière)
 
-## Running end-to-end tests
+ -Modifier une matière : nom de la matière , le professeur , et l'image correspondant à une matière 
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+-Lire toutes les matières .
 
-## Further help
+Gestion des assignments:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+ -Lire les assignments rendus et non rendus 
+
+-Donner des notes et remarques pour les assignments (L'administrateur seul peut donner des notes et remarques) 
+
+-Supprimer un assignment 
+
+-Ajouter un assignment(l'administrateur, le professeur, et l'étudiant peuvent ajouter un assignment ) 
+
+## Lien du site :
+https://frontmbdsmadagascar.herokuapp.com/login
+
+### compte utilisateur:
+
+#### Administrateur : email: ratah@gmail.com / mdp: ratah 
+
+#### Professeur : email : marc@gmail.com / mdp : marc 
+
+ ### affichages : 
+ https://github.com/angular/flex-layout 
+ https://codepen.io/RajRajeshDn/pen/LKzZNe 
+ https://material.angular.io/components/tabs/overview 
+ https://material.angular.io/components/stepper/overview
