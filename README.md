@@ -40,7 +40,7 @@ Assignment app
 
 ## Lien du site du projet sur heroku :
 
-https://frontendgrp17madagascar2021.herokuapp.com/
+https://frontmbdsmadagascar.herokuapp.com/home
 
 ### compte utilisateur:
 #### Administrateur : 
