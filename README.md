@@ -1,27 +1,69 @@
-# AssignmentApp
+# frontendgrp17madagascar2021
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.3.
+Assignment app
 
-## Development server
+## Informations générales
+    Ceci est notre projet front du projet de gestion d 'assignment.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Démarrage et fonctionnement du projet dans un autre ordinateur 
+    Après avoir télécharger le projet,ouvrez :
+	 le  dossier  pour le front et faites npm install , puis faites ng serve
+	
 
-## Code scaffolding
+## Auteur
+    L'application a été conçue par le groupe 17 composé de:
+    . ANDRIANARIVO Henintsoa Jonatana  n°07
+	. RANOMENJANAHARY Miora Gabrielle  n°46
+        
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Fonctionnalités
+    Les fonctionnalités sont:
+        .Login avec  Auhentification JWT
+	.Gestion des roles : Administrateur, professeur et étudiant
+	.Gestion des utilisateurs :
+	   L'administrateur seul peut :
+	   	-Ajouter d'un nouvel utilisateur ( ajout d'un nouveau professeur et d'un nouveau étudiant)
+		-Modifier un utilisateur :nom , prenom , role 
+		-Lire tous les  utilisateurs
+	.Gestion des matières:
+	   L'administrateur seul peut :	
+		-Ajouter une matière ( associé le professeur responsable de la matière)
+		-Modifier une matière : nomde la matière , le professeur , et l'image correspondant à une matière
+		-Lire toutes les matières
+	.Gestion des assignments:
+		-Lire les assignments rendus et non rendus
+		-Donner  des notes et remarques pour les assignments 
+        (L'administrateur seul peut donner des notes et remarques)  
+		-Supprimer un assignment
+		-Ajouter un assignment
+        (l'administrateur, le professeur, et l'étudiant peuvent ajouter un assignment )
 
-## Build
+## Lien du site du projet sur heroku :
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+https://frontmbdsmadagascar.herokuapp.com/home
 
-## Running unit tests
+### compte utilisateur:
+#### Administrateur : 
+email: ratah@gmail.com / mdp: ratah
+#### Professeur : 
+email : marc@gmail.com / mdp : marc
+#### Etudiant:
+email : luise@gmail.com/ mdp :luise
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+		
+## Les documentations et tutoriels suivis dans ce projet
+### JWT et login :
+https://www.loginradius.com/blog/async/Nodejs-and-MongoDb-application-authentication-by-JWT/
 
-## Running end-to-end tests
+https://etienner.github.io/api-json-web-token-authentication-jwt-sur-express-js/
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+https://www.youtube.com/watch?v=Tn6MfKdfmg4&list=PLBpijX9DhBeCJrPEZm_C1xwRYHQscxjUj&index=3
 
-## Further help
+### affichages :
+https://github.com/angular/flex-layout
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+https://codepen.io/RajRajeshDn/pen/LKzZNe
+
+https://material.angular.io/components/tabs/overview
+
+https://material.angular.io/components/stepper/overview
