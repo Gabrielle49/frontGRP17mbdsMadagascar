@@ -50,7 +50,10 @@ email : marc@gmail.com / mdp : marc
 #### Etudiant:
 email : luise@gmail.com/ mdp :luise
 
-		
+
+##Lien de notre api
+https://apimbdsmadagascar.herokuapp.com/
+
 ## Les documentations et tutoriels suivis dans ce projet
 ### JWT et login :
 https://www.loginradius.com/blog/async/Nodejs-and-MongoDb-application-authentication-by-JWT/
@@ -67,3 +70,5 @@ https://codepen.io/RajRajeshDn/pen/LKzZNe
 https://material.angular.io/components/tabs/overview
 
 https://material.angular.io/components/stepper/overview
+
+https://material.angular.io/components/snack-bar/overview
